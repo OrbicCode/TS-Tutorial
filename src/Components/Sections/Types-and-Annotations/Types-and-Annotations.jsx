@@ -39,7 +39,7 @@ let person: { name: string; age: number } = { name: "Alice", age: 25 };`}
 
 <p>Just like you can often tell what a Lego piece is for by looking at it, TypeScript can sometimes guess the type of data from how you use it in your code. This is called type inference. It's like letting TypeScript be your Lego detective!</p>
 <ul>
-    <li>Variables Don't Always Need Labels: If you assign a value to a variable, TypeScript might be able to figure out the type on its own. For example, if you assign the text "Hello World!" to a variable, TypeScript will likely infer it's a string.</li>
+    <li><strong>Variables Don't Always Need Labels:</strong> If you assign a value to a variable, TypeScript might be able to figure out the type on its own. For example, if you assign the text "Hello World!" to a variable, TypeScript will likely infer it's a string.</li>
 </ul>
 
 <pre><code className="codeBlock">
@@ -49,7 +49,7 @@ let inferredString = "Hello"; // TypeScript infers it's a string`}
 
 <h3>When Annotations Are Required</h3>
 <ul>
-    <li>Function Parameters Always Need Labels: Unlike variables, TypeScript can't always guess the expected type of data a function needs based on its body alone. So, you need to explicitly tell TypeScript what types of data the function's parameters should accept. This ensures you're giving the function the correct Legos to work with.</li>
+    <li><strong>Function Parameters Always Need Labels:</strong> Unlike variables, TypeScript can't always guess the expected type of data a function needs based on its body alone. So, you need to explicitly tell TypeScript what types of data the function's parameters should accept. This ensures you're giving the function the correct Legos to work with.</li>
 </ul>
 <pre><code className="codeBlock">
 {`function greet(name: string): string {

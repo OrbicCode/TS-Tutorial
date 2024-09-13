@@ -22,10 +22,10 @@ export default function Introduction() {
                 </ul>
             <h3>Getting Started</h3>
                 <ol>
-                    <li>Set up your development environment: Install Node.js and use npm (or a package manager like yarn or pnpm) to install TypeScript globally.</li>
-                    <li>Create a new TypeScript project: Initialize a new project directory and run tsc --init to create a tsconfig.json file, which configures TypeScript for your project.</li>
-                    <li>Write TypeScript code: Start writing your code with TypeScript syntax.</li>
-                    <li>Compile to JavaScript: Use the tsc command to compile your TypeScript files into JavaScript.</li>
+                    <li><strong>Set up your development environment:</strong> Install Node.js and use npm (or a package manager like yarn or pnpm) to install TypeScript globally.</li>
+                    <li><strong>Create a new TypeScript project:</strong> Initialize a new project directory and run tsc --init to create a tsconfig.json file, which configures TypeScript for your project.</li>
+                    <li><strong>Write TypeScript code:</strong> Start writing your code with TypeScript syntax.</li>
+                    <li><strong>Compile to JavaScript:</strong> Use the tsc command to compile your TypeScript files into JavaScript.</li>
                 </ol>
             <pre><code className="codeBlock">
 {`let message: string = "Hello, TypeScript!";

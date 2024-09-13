@@ -8,9 +8,9 @@ export default function UnionsandLiterals() {
 <p>The code talks about how TypeScript helps manage situations where a variable can hold different types of values.</p>
 <strong>It introduces two concepts:</strong>
 <ul>
-<li>Union Types: Imagine a box that can hold either an apple or an orange. A union type is like saying a variable can be either one type <code>(string)</code> or another type <code>(number)</code>.</li>
+<li><strong>Union Types:</strong> Imagine a box that can hold either an apple or an orange. A union type is like saying a variable can be either one type <code>(string)</code> or another type <code>(number)</code>.</li>
 
-<li>Literal Types: Imagine a box that can only hold a specific apple, like a Granny Smith apple. A literal type is like saying a variable can only be a specific value, like the string <code>"Granny Smith"</code>.</li>
+<li><strong>Literal Types:</strong> Imagine a box that can only hold a specific apple, like a Granny Smith apple. A literal type is like saying a variable can only be a specific value, like the string <code>"Granny Smith"</code>.</li>
 </ul>
 
 <h3>Declaring Union Types</h3>
@@ -25,14 +25,14 @@ export default function UnionsandLiterals() {
 
 <h3>Literal Types</h3>
 
-Literal types define variables that can only hold specific values.
+<p>Literal types define variables that can only hold specific values.</p>
 <strong>Examples include:</strong>
 <ul>
     <li><code>'yes' | 'no'</code> for a yes or no answer.</li>
     <li> <code>200 | 404 | 500</code> for common HTTP status codes.</li>
     <li> <code>true | false</code> for a boolean value.</li>
 </ul>
-This helps prevent errors by ensuring a variable has the exact value you expect.
+<p>This helps prevent errors by ensuring a variable has the exact value you expect.</p>
         </div>
     )
 }
