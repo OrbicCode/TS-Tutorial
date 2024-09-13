@@ -1,0 +1,9 @@
+.link {
+    margin: 15px auto;
+    color: #64b0bf;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #a0bce4
+}
