@@ -4,6 +4,7 @@ export default function Introduction() {
     return (
         <div className={styles.intro}>
             <h2>Introduction</h2>
+            <p>I encourage you to use the typescript playground link in the navigation bar to play around with all of the code examples</p>
             <h3>What is TypeScript?</h3>
             <p>TypeScript is a programming language that adds optional static typing to JavaScript. This means you can define the types of your variables, functions, and objects, which can help catch errors early in the development process.</p>
             <h3>Why Use TypeScript?</h3>
